@@ -61,6 +61,7 @@
                     <ColumnDefinition Width="130"/>
                 </Grid.ColumnDefinitions>
 
+                //===ADDED EXTRA DESIGN FEATURES=== 
                 <TextBox x:Name="UserInput"
                          FontSize="16"
                          Margin="0,0,12,0"
@@ -85,24 +86,28 @@
 
             <!-- Control Buttons -->
             <WrapPanel Grid.Row="1" Margin="0,12,0,0" HorizontalAlignment="Left">
+                //===VIEW TASKS BUTTON===
                 <Button Content="View Tasks" 
                         Width="130" Height="38" Margin="4"
                         Background="#2C3E50" Foreground="White"
                         FontWeight="Medium"
                         Click="ViewTasks_Click"/>
 
+                 //===START QUIZ BUTTON==
                 <Button Content="Start Quiz" 
                         Width="130" Height="38" Margin="4"
                         Background="#2C3E50" Foreground="White"
                         FontWeight="Medium"
                         Click="StartQuiz_Click"/>
 
+                 //===ACTIVITY LOG BUTTON===
                 <Button Content="Activity Log" 
                         Width="130" Height="38" Margin="4"
                         Background="#2C3E50" Foreground="White"
                         FontWeight="Medium"
                         Click="ActivityLog_Click"/>
 
+                 //===CLEAR BUTTON===
                 <Button Content="Clear Chat" 
                         Width="130" Height="38" Margin="4"
                         Background="#2C3E50" Foreground="White"
