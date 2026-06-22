@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 
 namespace CyberSecurityBotGUI1
 {
-    /// <summary>
+    
     /// MainWindow - Cybersecurity Awareness Chatbot (Part 3 / POE - Final Submission)
     /// PROG6221 - Fully meets all requirements:
     /// • Task Assistant with MySQL Database (CRUD)
@@ -15,7 +15,7 @@ namespace CyberSecurityBotGUI1
     /// • NLP Simulation via Keyword Detection
     /// • Activity Log Feature
     /// All features integrated into one professional GUI chatbot.
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
         // ==================================================
@@ -209,7 +209,7 @@ namespace CyberSecurityBotGUI1
                 return;
             }
 
-            // === CHATTY CONVERSATION ===
+            // === ADDED MORE CONVERSATIONS ===
             if (ContainsAny(lower, new[] { "hi", "hello", "hey", "sup" }))
             {
                 BotReply($"Hey {userName}! 👋 Great to see you again!");
